@@ -78,7 +78,6 @@ margin-top: 15px;
     height: 2rem;
     background-color: azure;
     
-    
 
 }
 
@@ -86,10 +85,8 @@ margin-top: 15px;
     color: aqua;
     background-color: bisque;
     order: 1;
-    margin-right: 70%;
+    margin: 0 auto 0 0;
     
-    
-
      
 }
 
@@ -108,5 +105,75 @@ margin-top: 15px;
 }
 .menuside:nth-of-type(5){
     background-color: rgb(231, 206, 255);
+    
+}
+
+
+
+
+.menu-side-login{
+    max-width: 100vw;
+    height: 3rem;
+    margin-top: 10px;
+    border: solid 1px black;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+    
+}
+
+
+
+.menuside-login{
+    border: solid black 1px;
+    width: 10rem;
+    height: 2rem;
+    background-color: azure;
+    
+    
+    
+    
+
+}
+
+.menuside-login:nth-of-type(1){
+    
+    color: aqua;
+    background-color: bisque;
+    order: 1;
+    margin: 0 0 auto 0;
+}
+
+.menuside-login:nth-of-type(2){
+    background-color: blueviolet;
+      order: 2;
+      margin: 0 0 auto auto;
+    
+      
+}
+.menuside-login:nth-of-type(3){
+    background-color: rgb(190, 128, 248);
+    order: 3;
+    margin: 0 0 auto 0;
+}
+.menuside-login:nth-of-type(4){
+    background-color: rgb(208, 164, 250);
+    order: 4;
+    margin:  0 0 auto 0;
+}
+.menuside-login:nth-of-type(5){
+    background-color: rgb(231, 206, 255);
+    order: 5;
+    margin: 0 0 auto 0;
+}
+.menuside-login:nth-of-type(6){
+    background-color: rgb(107, 175, 231);
+    order: 6;
+    margin:0 0 auto auto;
+    
+    
     
 }
