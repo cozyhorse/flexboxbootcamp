@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mainh1{
+    align-self: center;
+    border: solid 1px black;
+    
+    
+}
+
+.japanflag{
+
+border: solid black 1px;
+width: 18rem;
+height: 10rem;
+background-color: rgb(255, 255, 255);
+display: flex;
+align-self: center;
+justify-content: center;
+align-items: center;
+margin-top: 15px;
+
+}
+
+.flag-item{
+    width: 6rem;
+    height: 6rem;
+    background-color: rgb(188, 0, 45);
+    border-radius: 50%;
+        
+}
