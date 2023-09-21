@@ -332,3 +332,49 @@ figcaption{
     font-size: 1.1rem;
 }
 
+
+
+.gamecard-container{
+    width: 20rem;
+    height: 30rem;
+    background-color: rgb(245, 240, 234);
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 2rem;
+}
+
+.heart-top{
+    font-size: 1.5rem;
+    align-self: flex-start;
+    color: rgb(197, 2, 2);
+       
+}
+
+.heart-top p{
+    color: black;
+}
+
+.reverse-heart{
+    font-size: 1.5rem;
+    align-self: flex-end;
+    transform: rotate(180deg);
+    color: rgb(197, 2, 2);
+    
+}
+
+.reverse-heart p{
+    color: black;
+}
+
+.middle-heart{
+    font-size: 4rem;
+    color: rgb(197, 2, 2);
+    
+}
+
